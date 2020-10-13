@@ -18808,6 +18808,7 @@ video {
   display: inline-flex;
   align-content: baseline;
   margin-left:20px;
+  width:90vw;
 }
 
 main {
