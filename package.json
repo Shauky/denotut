@@ -1,0 +1,35 @@
+{
+  "name": "next-netlify-starter-using-preact",
+  "version": "0.1.1",
+  "private": true,
+  "scripts": {
+    "dev": "postcss pages/index/styles.css -o public/build/tstyles.css && next dev",
+    "build": "next build",
+    "start": "next start",
+    "export": "next export"
+  },
+  "devDependencies": {
+    "@types/node": "^14.11.5",
+    "@types/react": "^16.9.51",
+    "react-refresh": "^0.8.3",
+    "ts-loader": "^8.0.4",
+    "typescript": "^4.0.3"
+  },
+  "dependencies": {
+    "@prefresh/next": "^0.3.0",
+    "@types/marked": "^1.1.0",
+    "autoprefixer": "^10.0.1",
+    "gray-matter": "^4.0.2",
+    "htm": "^3.0.4",
+    "marked": "^1.2.0",
+    "next": "9.5.0",
+    "postcss-cli": "^8.1.0",
+    "postcss-preset-env": "^6.7.0",
+    "preact": "^10.4.4",
+    "preact-render-to-string": "^5.1.9",
+    "react": "github:preact-compat/react#1.0.0",
+    "react-dom": "github:preact-compat/react-dom#1.0.0",
+    "react-ssr-prepass": "npm:preact-ssr-prepass@^1.0.1",
+    "tailwindcss": "^1.8.12"
+  }
+}
