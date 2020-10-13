@@ -1,6 +1,6 @@
 ---
 title: First Day
-description: "These are some first day stuff"
 ---
+Would you want to do all this online. This could all be helped if were sure that we 
 
-Would you want to do all this online
+could edit as easily online and at what cost and therefore to what end
