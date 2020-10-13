@@ -4,5 +4,7 @@ date: 2020-10-13T22:17:29.397Z
 posts:
   - description: A methodical approach
     name: Towards Netlify
+  - description: Published here
+    name: New headers
 ---
-Yes Here there was at one time some  real dragons. Now none
+Here we added some requests
