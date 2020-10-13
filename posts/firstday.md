@@ -1,6 +1,7 @@
 ---
 title: First Day
-description: "These are some first day stuff"
+date: 2020-10-13T22:33:29.012Z
 ---
+Would you want to do all this online. This could all be helped if were sure that we 
 
-Would you want to do all this online
+could edit as easily online
