@@ -67,7 +67,7 @@ const Post = ({slug, htmlString, data, paths}) => {
               <div id="newspaper">
                  <br/>
                  <div>
-                  <Link href={"../../post/" + {slug}} >
+                  <Link href={"../../post/" + slug} >
                      <a>
                         Title: {data.title}
                      </a>

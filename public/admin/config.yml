@@ -12,7 +12,6 @@ collections:
       file: "posts/posts.md"
       fields:
         - { label: "Title", name: "title", widget: "string"}
-        - { label: "Publish Date", name: "date", widget: "datetime" }
         - { label: "Body", name: "body", widget: "markdown"}
         - label: 'Posts'
           name: "posts"
@@ -25,7 +24,6 @@ collections:
       file: "posts/firstday.md"
       fields:
         - { label: "Title", name: "title", widget: "string"}
-        - { label: "Publish Date", name: "date", widget: "datetime" }
         - { label: "Body", name: "body", widget: "markdown"}
         - label: 'Posts'
           name:  "firstday"
