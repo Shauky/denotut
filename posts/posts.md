@@ -1,5 +1,8 @@
 ---
 title: posts
-description: "Post be a list, and then there were no dragons"
+date: 2020-10-13T22:17:29.397Z
+posts:
+  - description: A methodical approach
+    name: Towards Netlify
 ---
 Yes Here there was at one time some  real dragons. Now none
