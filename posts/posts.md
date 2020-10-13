@@ -2,9 +2,7 @@
 title: posts
 date: 2020-10-13T22:17:29.397Z
 posts:
-  - description: A methodical approach
-    name: Towards Netlify
-  - description: Published here
-    name: New headers
+  - description: added today
+    name: 'added '
 ---
-Here we added some requests
+Here we added some requests and we maded them known
