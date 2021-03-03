@@ -1,0 +1,19 @@
+
+.editor {
+  box-sizing: border-box;
+  border: 1px solid #ddd;
+  cursor: text;
+  padding: 16px;
+  border-radius: 2px;
+  margin-bottom: 2em;
+  margin-top: 2em;
+  max-width: 80vw;
+  -webkit-box-shadow: -2px -1px 5px -3px rgba(186,186,186,1);
+  -moz-box-shadow: -2px -1px 5px -3px rgba(186,186,186,1);
+  box-shadow: -2px -1px 5px -3px rgba(186,186,186,1);;
+  background: #fefefe;
+}
+
+.editor :global(.public-DraftEditor-content) {
+  min-height: 200px;
+}
