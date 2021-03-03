@@ -1,6 +1,9 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+@import "draft-js/dist/Draft";
+@import "draftail/dist/draftail";
+@import "scene.css";
 
 .student{
   font-family: 'Permanent Marker', cursive;
