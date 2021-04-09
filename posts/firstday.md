@@ -1,5 +1,7 @@
-﻿---  
-title: First Day  
----  
+---
+title: First Day
+firstday: []
+---
+Would you want to do all this online?
 
-** ދިވެހި ރާއްޖޭގެ ކަނޑުތަކުގައި 
+<Footer />
