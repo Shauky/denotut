@@ -3,9 +3,9 @@
   "version": "0.1.1",
   "private": true,
   "scripts": {
-    "start": "cross-env NODE_ENV=dev  npm-run-all --parallel build:functions start:server next:build next:start",
+    "start": "cross-env NODE_ENV=dev  npm-run-all --parallel build:functions start:server build next:start",
     "dev": "postcss pages/index/styles.css -o public/build/tstyles.css && next dev",
-    "next:build": "next build",
+    "build": "next build",
     "next:start": "next start",
     "export": "next export",
     "build:functions": "netlify-lambda build functions",
