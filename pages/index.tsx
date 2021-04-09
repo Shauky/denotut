@@ -21,18 +21,6 @@ class App extends Component {
                 <div >
                   <p> Creating resources and tools for
                     educators, publishers and students.</p>
-                   <div className="mt-5 sm:mt-8 sm:flex sm:justify-center lg:justify-start">
-                     <div className="mt-5 sm:mt-8 py-4">
-                      <a href="#" className="flex flex-shrink-0 items-center justify-center px-6 py-6 border border-transparent text-base leading-6 font-medium rounded-md text-white hover:bg-indigo-500 focus:outline-none focus:border-indigo-700 focus:shadow-outline-indigo transition duration-150 ease-in-out md:py-2 ">
-                        <div className="rounded-md focus:bg-gray-100 px-6">
-                          <div className="focus:text-gray text-gray-500"> Projects</div>
-                            <div className="hidden content">
-                                <i className="right arrow icon"></i>
-                            </div>
-                          </div>
-                        </a>
-                     </div>
-                   </div>
                  </div>
            </div>
          </div>
@@ -46,14 +34,6 @@ class App extends Component {
           <p> We also help collect content from textbooks and paper. Then convert, edit & publish them on the web. Tutorcast is all about easing paper overheads for literacy, using interactive experiences both on desktop and mobile.</p>
       </div>
 
-      <div id="paper_feature" className="actions mt-50 px-4 lg:px-8 lg:mt-20 py-20 sm:py-10 md:mt-16 xl:mt-50 mx-auto ">
-        <hr/>
-        <p className="py-20 lg:px-20">Workflow: Thaana Paperworks</p>
-      </div>
-      <div id="paper_feature" className="actions mt-50 px-4 lg:px-8 lg:mt-20 py-20 sm:py-10 md:mt-16 xl:mt-50 mx-auto ">
-        <hr/>
-        <p className="py-20 lg:px-20">Workflow: Books and Media </p>
-      </div>
       <Footer />
     </div>
   </div>)

@@ -1,0 +1,42 @@
+# The directory Mix will write compiled artifacts to.
+/_build/
+
+# If you run "mix test --cover", coverage assets end up here.
+/cover/
+
+# The directory Mix downloads your dependencies sources to.
+/deps/
+/assets/
+
+# Where 3rd-party dependencies like ExDoc output generated docs.
+/doc/
+
+# Ignore .fetch files in case you like to edit your project deps locally.
+/.fetch
+
+# If the VM crashes, it generates a dump, let's ignore it too.
+erl_crash.dump
+
+# Also ignore archive artifacts (built via "mix archive.build").
+*.ez
+
+# Ignore package tarball (built via "mix hex.build").
+scopedb-*.tar
+
+# The default directory which Serum builds the website into. Metadata and tests as well
+/site/
+/metadata/
+/migrations/
+/seeds/
+/tests/
+
+# Ignore package run files for elixir, docker and locks
+*.sh
+*.lock
+*.deb
+*.asc
+*.yml
+
+# Ignore cards, posts, templates and all other apps, all except Serum which is left
+# for static content in markdown
+/apps/

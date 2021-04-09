@@ -3,17 +3,26 @@
   "version": "0.1.1",
   "private": true,
   "scripts": {
+    "start": "cross-env NODE_ENV=dev  npm-run-all --parallel build:functions start:server next:build next:start",
     "dev": "postcss pages/index/styles.css -o public/build/tstyles.css && next dev",
-    "build": "next build",
-    "start": "next start",
-    "export": "next export"
+    "next:build": "next build",
+    "next:start": "next start",
+    "export": "next export",
+    "build:functions": "netlify-lambda build functions",
+    "start:server": "netlify-lambda serve functions"
   },
   "devDependencies": {
     "@types/node": "^14.11.5",
     "@types/react": "^16.9.51",
     "react-refresh": "^0.8.3",
     "ts-loader": "^8.0.4",
-    "typescript": "^4.0.3"
+    "typescript": "^4.0.3",
+    "cross-env": "^5.2.0",
+    "serverless-http": "^1.6.0",
+    "cors": "^2.8.4",
+    "express": "^4.17.1",
+    "netlify-lambda": "^0.4.0",
+    "npm-run-all": "^4.1.3"
   },
   "dependencies": {
     "@prefresh/next": "^0.3.0",
@@ -28,6 +37,9 @@
     "gray-matter": "^4.0.2",
     "htm": "^3.0.4",
     "jquery": "^3.5.1",
+    "body-parser": "^1.18.3",
+    "compression": "^1.7.2",
+    "json-graphql-server": "^2.2.2",
     "marked": "^1.2.0",
     "next": "9.5.0",
     "postcss-cli": "^8.1.0",
@@ -39,5 +51,13 @@
     "react-ssr-prepass": "npm:preact-ssr-prepass@^1.0.1",
     "run-exclusive": "^2.2.14",
     "tailwindcss": "^1.8.12"
+  },
+  "proxy": {
+    "/.netlify/functions": {
+      "target": "http://localhost:9000",
+      "pathRewrite": {
+        "^/\\.netlify/functions": ""
+      }
+    }
   }
 }
